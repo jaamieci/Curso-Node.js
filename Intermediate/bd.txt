@@ -1,0 +1,32 @@
+bd mongodb: libraryApp
+colección: books
+{
+        "_id" : ObjectId("59b99ab4f4e6142c306fbc2c"),
+        "title" : "War and Peace",
+        "genre" : "Historical Fiction",
+        "author" : "Lev .. ",
+        "read" : false
+}
+{
+        "_id" : ObjectId("59b99ab4f4e6142c306fbc2d"),
+        "title" : "Second Book",
+        "genre" : "Historical Fiction",
+        "author" : "lee ",
+        "read" : false
+}
+{
+        "_id" : ObjectId("59b99ab4f4e6142c306fbc2e"),
+        "title" : "Last Book",
+        "genre" : "Science Fiction",
+        "author" : "Raymon",
+        "read" : false
+}
+
+
+colección: users
+
+{
+        "_id" : ObjectId("59baf382afffbe2e7c0c5ac0"),
+        "username" : "johny",
+        "password" : "12345"
+}
